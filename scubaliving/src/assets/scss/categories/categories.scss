@@ -1,0 +1,30 @@
+#categories {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "l1 l2 l3";
+  grid-gap: 10%;
+  margin: 10%;
+  #link1 {
+    grid-area: l1;
+  }
+  #link2 {
+    grid-area: l2;
+  }
+  #link3 {
+    grid-area: l3;
+  }
+  .links {
+  }
+  .categoriLink {
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    font-size: 4rem;
+    padding: 15%;
+    transition: 0.5s;
+    &:hover {
+      background: rgb(47, 47, 47);
+      color: white;
+    }
+  }
+}

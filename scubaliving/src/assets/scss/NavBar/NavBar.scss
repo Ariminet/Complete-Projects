@@ -1,0 +1,71 @@
+nav {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  grid-template-areas: "logo menu search logres";
+  font-size: 2rem;
+
+  .brandLogo {
+    grid-area: logo;
+    height: 100%;
+    width: 30rem;
+  }
+  .menu {
+    grid-area: menu;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6%;
+    width: 100%;
+    margin-left: 10%;
+  }
+  .menuItems {
+    margin: 0 1% 0 0;
+    list-style-type: none;
+    white-space: nowrap;
+    .navLink {
+      color: black;
+      text-decoration: none;
+      font-weight: 700;
+    }
+  }
+  .search {
+    margin-top: 10%;
+    grid-area: search;
+  }
+  #search {
+    height: 3vh;
+    width: 10vw;
+  }
+  #searchButton {
+    height: 3vh;
+  }
+  .login {
+    height: 4vh;
+    display: flex;
+    background: rgb(88, 88, 88);
+    margin: 9% auto;
+    grid-area: logres;
+    .loginIcon {
+      background: black;
+      height: 4vh;
+    }
+    .buttons {
+      margin-top: 1%;
+      height: 4vh;
+      width: 100%;
+      display: flex;
+    }
+    #loginButton {
+      margin: auto;
+      color: white;
+      text-decoration: none;
+      padding-right: 10%;
+      padding-left: 5%;
+    }
+    #registerButton {
+      margin: auto;
+      color: white;
+      text-decoration: none;
+      padding-right: 5%;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.cover {
+  width: 100%;
+  position: relative;
+  .coverImg {
+    width: 100%;
+    height: 60vh;
+  }
+  #figcaptionContainer {
+    position: absolute;
+    top: 65%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    z-index: 1;
+    background: rgba(128, 128, 128, 0.815);
+    padding: 2%;
+    width: 50vw;
+  }
+  #coverCaption {
+    font-size: 2.5rem;
+  }
+  #coverQuote {
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+  }
+}

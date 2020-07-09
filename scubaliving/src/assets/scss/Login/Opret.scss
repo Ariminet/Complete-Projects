@@ -1,0 +1,50 @@
+#opretContainer {
+  margin: 2% auto 5% auto;
+  background: rgba(128, 128, 128, 0.575);
+  display: grid;
+  width: 40rem;
+  height: 40rem;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "title"
+    "form";
+  #opretTitle {
+    grid-area: title;
+    margin-top: 10%;
+    font-size: 2rem;
+  }
+  .Opret {
+    padding: 5%;
+    display: grid;
+    grid-area: form;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "usernameInput"
+      "emailInput"
+      "passwordInput";
+  }
+  // #userLabel {
+  //   font-size: 1.5rem;
+  //   text-align: left;
+  //   grid-area: username;
+  // }
+  #username {
+    grid-area: usernameInput;
+  }
+  // #emailLabel {
+  //   font-size: 1.5rem;
+  //   text-align: left;
+  //   grid-area: email;
+  // }
+  #email {
+    grid-area: emailInput;
+  }
+  // #passwordLabel {
+  //   font-size: 1.5rem;
+  //   text-align: left;
+  //   grid-area: password;
+  // }
+  #password {
+    grid-area: passwordInput;
+  }
+}

@@ -1,0 +1,59 @@
+.products {
+  margin-bottom: 5%;
+  #productsTitle {
+    margin: 5% 5% 5% 5%;
+    text-align: left;
+    background: linear-gradient(
+      90deg,
+      rgba(54, 54, 54, 1) 0%,
+      rgba(54, 54, 54, 1) 50%,
+      rgba(213, 213, 213, 1) 50%,
+      rgba(213, 213, 213, 1) 100%
+    );
+    color: white;
+    padding: 0.5% 0.5% 0.5% 4%;
+    font-weight: 900;
+    font-size: 2rem;
+  }
+  .allProducts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "item1 item2 item3 item4";
+    margin: 0 5% 5% 5%;
+    grid-gap: 4%;
+  }
+  .productItem {
+    box-shadow: 0px 0px 2px 2px rgba(209, 207, 209, 1);
+    height: 50vh;
+    padding: 10%;
+
+    img {
+      width: 100%;
+    }
+    &:nth-of-type(1) {
+      grid-area: item1;
+    }
+    &:nth-of-type(2) {
+      grid-area: item2;
+    }
+    &:nth-of-type(3) {
+      grid-area: item3;
+    }
+    &:nth-of-type(4) {
+      grid-area: item4;
+    }
+  }
+  .productCaption {
+    font-size: 2.3rem;
+    color: rgb(61, 61, 61);
+    margin-top: 15%;
+  }
+  .pris {
+    font-size: 1.5rem;
+  }
+  #udstyrLink {
+    font-size: 5rem;
+    text-decoration: none;
+    color: black;
+  }
+}

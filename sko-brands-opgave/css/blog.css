@@ -1,0 +1,113 @@
+/* content */
+#body{
+    display: grid;
+    grid-template: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "banner banner banner"
+    ". product ."
+    "info info info";
+}
+
+/* content */
+
+/* banner */
+#logo-banner{
+    display: grid;
+    grid-area: banner;
+    display: flex;
+}
+
+#logo-banner img{
+
+}
+/* banner */
+
+
+
+#skoInfo{
+    width: 100%;
+    display: grid;
+    grid-area: product;
+    grid-template: 1fr 1fr;
+    grid-template-areas: "sko info"
+    "sko info"
+}
+
+#sko{
+display: grid;
+grid-area: sko;
+}
+#product-info{
+    display: grid;
+    grid-area: info;
+
+}
+
+#price{
+
+}
+
+#post-price{
+    text-decoration: line-through;
+    margin-right: 5%;
+
+}
+
+
+
+#discount-price{
+    color: red;
+}
+
+
+#discount{
+    color: red;
+}
+
+#model{
+
+}
+
+#weight{
+
+}
+
+#select-products{
+
+}
+
+#chose{
+
+}
+
+#menssize{
+
+}
+
+#buy{
+
+}
+
+#quantity{
+    width: 1rem;
+    height: 2vh;
+}
+#add-cart{
+    width: 5rem;
+    height: 2.5vh;
+    border-radius: 6px 6px 6px 6px;
+    background: #EEECEA;
+    box-shadow: -30px 0px 5px 0px rgba(197, 196, 195, 0.3);
+}
+
+#sko-pro{
+    display: grid;
+    grid-area: info;   
+    padding: 0% 15% 0% 15%;
+    border-top: 2px solid rgba(0, 0, 0, 0.582);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.582);
+    margin: 10% 5% 5% 5%;
+}
+
+
+

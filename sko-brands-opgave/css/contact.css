@@ -1,0 +1,86 @@
+
+/* content */
+#body{
+    display: grid;
+    grid-template: 1fr 1fr;
+    grid-template-areas: 
+    "banner banner"
+    "form location";
+}
+/* content */
+
+
+/* banner */
+#logo-banner{
+    grid-area: banner;
+}
+
+#logo-banner img{
+
+}
+/* banner */
+
+#form{
+    display: grid;
+    grid-area: form;
+    margin-left: 43%;
+}
+
+#l-name{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+#i-name{
+    width: 30%;
+    height: 1.5rem;
+    background: #EDEBE9;
+}
+
+#l-email{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+#i-email{
+    width: 30%;
+    height: 1.5rem;
+    background: #EDEBE9;
+}
+
+#l-message{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+#i-message{
+    background: #EDEBE9;
+}
+
+#buttons{
+    display: flex;
+}
+
+#submit{
+    border-radius: 10px 10px 10px 10px;
+    margin: 2% 1% 0 0;
+    width: 25%;
+    height: 1.6rem;
+    background: #EDEBE9;
+}
+
+#cancel{
+    border-radius: 10px 10px 10px 10px;
+    margin: 2% 1% 0 0;
+    width: 25%;
+    height: 1.6rem;
+    background: #EDEBE9;
+}
+
+
+#location-img{
+    display: grid;
+    grid-area: location;
+    margin-right: 20%;
+    margin-left: 5%;
+}
+

@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+}
+
+#full-wrapper{
+
+}
+
+
+/* navigation  */
+header{
+    
+}
+
+#info{
+    height: 1.7rem;
+    background: #131313;
+    width: 100%;
+    display: grid;
+    grid-template: 1fr 1fr 1fr;
+    grid-template-areas:
+    "cc . some" ;
+}
+
+#cc-t{
+    padding-left: 13rem;
+    display: grid;
+    grid-area: cc;
+}
+
+#SoMe{
+    padding-left: 40rem;
+    display: grid;
+    grid-area: some;
+}
+
+nav{
+background: #1C2833;
+display: grid;
+grid-template: 1fr 1fr 1fr ;
+grid-template-areas: 
+"logo . menu";
+}
+
+#footsteps{
+display: grid;
+grid-area: logo;
+padding-top: 4%;
+padding-left: 11.5rem;
+}
+
+nav ul{
+    margin-left: 22%;
+    display: grid;
+    grid-area: menu;
+    display: flex;
+    list-style-type: none;
+    height: 12vh;
+}
+
+nav ul li{
+    padding-top: 5%;
+    margin-right: 3%;
+}
+nav ul li:hover{
+    transition: 1s;
+    background: #131313;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a p{
+    font-size: 0.9rem;
+    color: gray;
+}
+
+/* navigation  */
+
+/* CONTENT */
+#body{
+    background: #F6F4EF;
+}
+
+/* CONTENT */
+
+/* banner */
+#logo-banner{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #EFEDEB;
+    /* position:relative; */
+            box-shadow:0 0px 6px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; 
+    margin-bottom: 2%;
+        }
+/* #logo-banner:after{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    box-shadow:0 0 10px rgba(0,0,0,0.8);
+    top:50%;
+    bottom:0;
+    left:22%;
+    right:22%;
+    border-radius:100px / 10px;
+} */
+
+#logo-banner img{
+    margin-right: 4%;
+}
+#logo-banner img:first-of-type{
+    margin-left: 20%;
+}
+/* banner */
+
+/* Footer */
+
+footer{
+    background: #1C2833;
+    display: grid;
+    grid-template: 1fr 1fr 1fr;
+    grid-template-areas: 
+    ". . input"
+    "menu menu menu";
+}
+
+footer #input{
+    display: grid;
+    grid-area: input;
+    display: flex;
+    padding: 3%;
+    margin-left: 58%;
+}
+
+footer p{
+    color: white;
+margin-right: 5%;
+font-size: 0.9rem;
+}
+
+footer input{
+    background: #EFEDEB;
+
+}
+
+footer nav{
+    height: 1.7rem;
+    background: #131313;
+    display: grid;
+    grid-area: menu;
+    grid-template: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "cc . menu";
+}
+
+footer nav #cc-b{
+    display: grid;
+    grid-area: cc;
+    margin-left: 25%;
+
+}
+
+footer nav ul{
+    display: grid;
+    grid-area: menu;
+    display: flex;
+    margin-left: 55%;
+    height: 1.7vh;
+}
+
+footer nav ul li{
+    padding-top: 0;
+    margin-right: 5%;
+}
+
+footer nav ul li a{
+
+}
+/* Footer */

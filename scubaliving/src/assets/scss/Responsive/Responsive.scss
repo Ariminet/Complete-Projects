@@ -1,0 +1,99 @@
+@media screen and (max-width: 937px) {
+  nav {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "logo search logres"
+      "menu menu menu";
+    .menu {
+      margin-top: 0;
+      margin-left: 10%;
+    }
+    .search {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: "search btn";
+    }
+    #search {
+      grid-area: search;
+      height: 3vh;
+      width: 15vw;
+    }
+    #searchButton {
+      grid-area: btn;
+      height: 3vh;
+    }
+  }
+
+  .cover {
+    #figcaptionContainer {
+      min-width: 70vw;
+    }
+    #coverCaption {
+      font-size: 2rem;
+    }
+    #coverQuote {
+      font-size: 2rem;
+    }
+  }
+
+  .products {
+    #productsTitle {
+      background: black;
+      text-align: center;
+      font-size: 2rem;
+    }
+    .allProducts {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: "item1 item2" " item3 item4";
+    }
+
+    .productCaption {
+      font-size: 2.3rem;
+    }
+    .pris {
+      font-size: 1.5rem;
+    }
+    #udstyrLink {
+      font-size: 3rem;
+    }
+  }
+
+  #travels {
+    #travelTitle {
+      text-align: center;
+      background: black;
+    }
+
+    #travelLink {
+      font-size: 3rem;
+      white-space: nowrap;
+      color: black;
+    }
+  }
+
+  #course {
+    #courseTitle {
+      text-align: center;
+      background: black;
+    }
+    #courseCover {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "courseImg"
+        "courseText";
+    }
+    #courseTextContainer {
+      padding: 5%;
+    }
+
+    .courseImg {
+      padding-top: 5%;
+      height: 35vh;
+    }
+    #courseLink {
+      font-size: 3rem;
+      color: black;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+#contactContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "title"
+    "form";
+  margin: 5% 25% 5% 25%;
+  background: rgba(32, 32, 32, 0.733);
+  padding: 5% 2% 5% 2%;
+  #contactTitle {
+    grid-area: title;
+    font-size: 3rem;
+    color: white;
+  }
+  #contactForm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "name email"
+      "tel tel"
+      "message message"
+      "button .";
+    grid-area: form;
+    grid-gap: 20% 2%;
+    margin-top: 5%;
+  }
+  #name {
+    grid-area: name;
+  }
+  #email {
+    grid-area: email;
+  }
+  #tel {
+    grid-area: tel;
+  }
+  #message {
+    grid-area: message;
+  }
+  #submit {
+    width: 50%;
+    height: 5vh;
+    border: none;
+    color: white;
+    background: rgb(36, 36, 36);
+  }
+}

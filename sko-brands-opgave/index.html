@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <!-- Scripts  -->
+        <script src="https://kit.fontawesome.com/9f2081d47d.js"></script>
+        <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"></script>
+      <script src="js/slider.js"></script>
+    
+    
+        <!-- CSS  -->
+        <link rel="stylesheet" href="css/pagelayout.css">
+        <link rel="stylesheet" href="css/slider.css">
+        <link rel="stylesheet" href="css/main.css">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>brands</title>
+
+    
+</head>
+<body>
+    <div id="full-wrapper">
+    <header>
+        <section id="info">
+        <img id="cc-t" src="img/creditcards.jpg" alt="creditcards">
+        <img id="SoMe" src="img/SoMe.jpg" alt="socialmedias">
+    </section>
+        <nav>
+            <a href="index.html"><img id="footsteps" src="img/Footsteps logo.png" alt="Footsteps"></a>
+            <ul>
+                <li><a href="index.html">Home <p>Back to start</p></a></li>
+                <li><a href="products.html">Products <p>All our shoes</p></a></li>
+                <li><a href="news.html">News <p>Read our news</p></a></li>
+                <li><a href="contact.html">Contact <p>Contact information</p></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="body">
+            <div class="slideshow-container">
+            <div class="mySlides fade" id="slide1">
+                    <img class="imgslide" src="img/slide-img1.png" >
+                  </div>
+                  <div class="mySlides fade">
+                        <img class="imgslide" src="img/slide-img1.png" >
+                      </div>
+                      <div class="mySlides fade">
+                            <img class="imgslide" src="img/slide-img1.png" >
+                          </div>
+                  
+                  <a class="prev" onclick="plusSlides(-1)"><img id="a-l" src="img/arrow-left.jpg" alt="arrow-left"></a>
+                  <a class="next" onclick="plusSlides(1)"><img id="a-r" src="img/arrow-right.jpg" alt="arrow-right"></a>
+                  </div>
+        <!-- <figure id="cover">
+            <img id="slide-img" src="img/slide-img1.png" alt="shoe-add">
+            <img id="a-l" src="img/arrow-left.jpg" alt="arrow-left">
+            <img id="a-r" src="img/arrow-right.jpg" alt="arrow-right">
+        </figure> -->
+    <section id="logo-banner">
+        <img id="first-logo" src="img/addidaslogo.png" alt="addidas">
+        <img src="img/reeboklogo.png" alt="reebok">
+        <img src="img/silverstarlogo.png" alt="silverstar">
+        <img src="img/warriorlogo.png" alt="warrior">
+        <img src="img/bewerbodlesmale.png" alt="bewer-male">
+        <img src="img/bewerbodlesfemale.png" alt="bewer-female">
+        <img src="img/Dcorelogo.png" alt="dcore">
+        <img src="img/hummellogo.png" alt="hummel">
+    </section>
+    <div id="select-products">
+    <select name="brand" id="brand">
+        <option value="select">Select a brand</option>
+        <option value="addidas">Addidas</option>
+        <option value="reebok">Reebok</option>
+        <option value="silverstar">Silver star</option>
+        <option value="warrior">Warrior</option>
+        <option value="bewerbodlesmale">Bewerbodles male</option>
+        <option value="bewerbodlesfemale">Bewerbodles female</option>
+        <option value="dcore">Dcore</option>
+        <option value="hummel">Hummel</option>
+    </select>
+    <select name="sort" id="sort">
+        <option value="sort">Sort by</option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+    </select>
+</div>
+<div id="products">
+        <figure class="item" id="item-1">
+                <img id="sko1" src="img/Sko1.png" alt="">
+                <p id="model1">Model Nike lebron james</p>
+                <img class="ratings" id="ratings1" src="img/ratings.jpg" alt="">
+                <p class="price" id="price1"><span class="post-price">$139.00</span> <span id="break1"> - </span><span class="discount-price" id="discount-price-1">$85.00</span></p>
+                <p class="discount">Save: 64% off</p>
+                <div id="buy">
+                <input type="text" class="quantity" id="quantity" name="quantity" value="1">
+                <button class="add-cart" id="add-cart">Add to cart</button>
+            </div>
+            </figure>
+    <figure class="item" id="item-2">
+            <img id="sko2" src="img/Sko2.png" alt="">
+            <p id="model2">Model Nike lebron james</p>
+            <img class="ratings" id="ratings2" src="img/ratings.jpg" alt="">
+            <p class="price" id="price2"><span class="post-price">$239.00</span> <span id="break2"> - </span><span class="discount-price" id="discount-price-2">$85.00</span></p>
+            <p class="discount">Save: 64% off</p>
+            <div id="buy">
+            <input type="text" class="quantity" id="quantity" name="quantity" value="1">
+            <button class="add-cart" id="add-cart">Add to cart</button>
+        </div>
+        </figure>
+        <figure class="item" id="item-3">
+                <img id="sko3" src="img/Sko3.png" alt="">
+                <p id="model3">Model Nike lebron james</p>
+                <img class="ratings" id="ratings3" src="img/ratings.jpg" alt="">
+                <p class="price" id="price3"><span class="post-price">$339.00</span> <span id="break3"> - </span><span class="discount-price" id="discount-price-3">$85.00</span></p>
+                <p class="discount">Save: 64% off</p>
+                <div id="buy">
+                <input type="text" class="quantity" id="quantity" name="quantity" value="1">
+                <button class="add-cart" id="add-cart">Add to cart</button>
+            </div>
+            </figure>
+            <figure class="item" id="item-4">
+                    <img id="sko4" src="img/Sko4.png" alt="">
+                    <p id="model4">Model Nike lebron james</p>
+                    <img class="ratings" id="ratings4" src="img/ratings.jpg" alt="">
+                    <p class="price" id="price4"><span class="post-price">$439.00</span> <span id="break4"> - </span><span class="discount-price" id="discount-price-4">$85.00</span></p>
+                    <p class="discount">Save: 64% off</p>
+                    <div id="buy">
+                    <input type="text" class="quantity" id="quantity" name="quantity" value="1">
+                    <button class="add-cart" id="add-cart">Add to cart</button>
+                </div>
+                </figure>
+                <figure class="item" id="item-5">
+                        <img id="sko5" src="img/Sko5.png" alt="">
+                        <p id="model5">Model Nike lebron james</p>
+                        <img class="ratings" id="ratings5" src="img/ratings.jpg" alt="">
+                        <p class="price" id="price5"><span class="post-price">$539.00</span> <span id="break5"> - </span><span class="discount-price" id="discount-price-5">$85.00</span></p>
+                        <p class="discount">Save: 64% off</p>
+                        <div id="buy">
+                        <input type="text" class="quantity" id="quantity" name="quantity" value="1">
+                        <button class="add-cart" id="add-cart">Add to cart</button>
+                    </div>
+                    </figure>
+                    <figure class="item" id="item-6">
+                            <img id="sko6" src="img/Sko6.png" alt="">
+                            <p id="model6">Model Nike lebron james</p>
+                            <img class="ratings" id="ratings6" src="img/ratings.jpg" alt="">
+                            <p class="price" id="price6"><span class="post-price">$639.00</span> <span id="break6"> - </span><span class="discount-price" id="discount-price-6">$85.00</span></p>
+                            <p class="discount">Save: 64% off</p>
+                            <div id="buy">
+                            <input type="text" class="quantity" id="quantity" name="quantity" value="1">
+                            <button class="add-cart" id="add-cart">Add to cart</button>
+                        </div>
+                        </figure>
+                    </div>
+</div>
+    <footer>
+        <section id="input">
+        <p>Sign up for newsletter</p>
+        <input type="email" name="email" id="email" placeholder="Enter email..">
+    </section>
+        <nav>
+                <img id="cc-b" src="img/creditcards.jpg" alt="creditcard">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+        
+        
+</div>
+</body>
+</html>

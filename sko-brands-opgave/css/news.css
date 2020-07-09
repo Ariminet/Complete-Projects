@@ -1,0 +1,72 @@
+
+/* content */
+#body{
+}
+/* content */
+
+
+/* banner */
+#logo-banner{
+
+}
+
+/* banner */
+
+h2{
+font-size: 1rem;
+font-weight: 545;
+}
+
+h3{
+    font-size: 0.9rem;
+    font-weight: 545;
+    padding-bottom: 1%;
+}
+
+p{
+    font-size: 0.9rem;
+    color: rgb(32, 32, 32);
+}
+.news{
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+#news1{
+    width: 63%;
+    padding-bottom: 2%;
+    display: grid;
+    grid-area: news1;
+        box-shadow: 0px 4px 2px -2px rgba(0,0,0,0.75);
+}
+
+#news2{
+    width: 63%;
+    padding-bottom: 2%;
+    display: grid;
+    grid-area: news2;
+        box-shadow: 0px 4px 2px -2px rgba(0,0,0,0.75);
+}
+
+#news3{
+    width: 63%;
+    padding-bottom: 2%;
+    display: grid;
+    grid-area: news3;
+        box-shadow: 0px 4px 2px -2px rgba(0,0,0,0.75);
+}
+
+#news4{
+    width: 63%;
+    padding-bottom: 2%;
+    display: grid;
+    grid-area: news4;
+        box-shadow: 0px 4px 2px -2px rgba(0,0,0,0.75);
+}
+
+#pageNumber{
+    margin-left: 20%;
+    margin-top: 2%;
+    padding-bottom: 3%;
+    font-weight: 700;
+}

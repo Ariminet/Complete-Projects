@@ -1,0 +1,23 @@
+#openHours {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "days hours";
+
+  #days {
+    grid-area: days;
+    margin: 10% 2% 10% auto;
+    border-right: 2px solid black;
+    padding-right: 2%;
+  }
+  #hours {
+    grid-area: hours;
+    margin: 10% auto 10% 0;
+  }
+
+  .openDays {
+    font-size: 2rem;
+  }
+  .openHours {
+    font-size: 2rem;
+  }
+}
